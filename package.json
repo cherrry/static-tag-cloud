@@ -1,0 +1,8 @@
+{
+  "name": "static-tag-cloud",
+  "description": "A determinstic tag cloud generator.",
+  "version": "0.0.0",
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  }
+}
