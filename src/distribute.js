@@ -9,7 +9,7 @@ var distribute = function (tagDefs, numOfBuckets) {
     return tagDef.count
   }).sort()
 
-  var step = tagDefs.length / (numOfBuckets - 1)
+  var step = tagDefs.length / numOfBuckets
   var upperBounds = []
   for (var i = 0; i < numOfBuckets; i++) {
     var from = Math.min(length - 1, Math.max(0, Math.round(i * step)))
