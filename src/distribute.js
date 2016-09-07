@@ -17,7 +17,11 @@ var distribute = function (tagDefs, numOfBuckets) {
   }
 
   var findBucket = function (count) {
-    var bucket = 0
+    if (count === counts[0]) {
+      return 1
+    }
+
+    var bucket = 1
     while (bucket < numOfBuckets && count >= upperBounds[bucket]) {
       bucket++
     }
