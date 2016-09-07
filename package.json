@@ -1,7 +1,7 @@
 {
   "name": "static-tag-cloud",
   "description": "A deterministic tag cloud generator.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Cherry Ng",
     "email": "cherry92@gmail.com",
